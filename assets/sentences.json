@@ -1,0 +1,12 @@
+[
+  {"id": "s01", "words": ["3aslema"], "derja": "عسلامة", "french": "Bonjour", "audio": "s01.wav", "status": "draft"},
+  {"id": "s02", "words": ["labes"], "derja": "لاباس؟", "french": "Ça va ?", "audio": "s02.wav", "status": "draft"},
+  {"id": "s03", "words": ["oui"], "derja": "إيه", "french": "Oui", "audio": "s03.wav", "status": "draft"},
+  {"id": "s04", "words": ["non"], "derja": "لا", "french": "Non", "audio": "s04.wav", "status": "draft"},
+  {"id": "s05", "words": ["sbitar"], "derja": "نحب نمشي للسبيطار", "french": "Je veux aller à l'hôpital", "audio": "s05.wav", "status": "draft"},
+  {"id": "s06", "words": ["taxi", "sbitar"], "derja": "نحب نمشي للسبيطار بالتاكسي", "french": "Je veux aller à l'hôpital en taxi", "audio": "s06.wav", "status": "draft"},
+  {"id": "s07", "words": ["louage", "dar"], "derja": "نحب نرجع للدار باللواج", "french": "Je veux rentrer à la maison en louage", "audio": "s07.wav", "status": "draft"},
+  {"id": "s08", "words": ["lyoum", "banka"], "derja": "اليوم نمشي للبنكة", "french": "Aujourd'hui je vais à la banque", "audio": "s08.wav", "status": "draft"},
+  {"id": "s09", "words": ["jom3a", "baladya"], "derja": "نمشي للبلدية نهار الجمعة", "french": "Je vais à la mairie vendredi", "audio": "s09.wav", "status": "draft"},
+  {"id": "s10", "words": ["om", "sbitar"], "derja": "ماما في السبيطار", "french": "Maman est à l'hôpital", "audio": "s10.wav", "status": "draft"}
+]

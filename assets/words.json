@@ -1,0 +1,15 @@
+[
+  {"category": "Demandes", "folder": "3aslema", "derja": "عسلامة", "french": "Bonjour", "audio": "3aslema.wav", "status": "to_verify"},
+  {"category": "Demandes", "folder": "labes", "derja": "لاباس", "french": "Ça va ?", "audio": "labes.wav", "status": "to_verify"},
+  {"category": "Demandes", "folder": "oui", "derja": "إيه", "french": "Oui", "audio": "oui.wav", "status": "to_verify"},
+  {"category": "Demandes", "folder": "non", "derja": "لا", "french": "Non", "audio": "non.wav", "status": "to_verify"},
+  {"category": "Demandes", "folder": "lyoum", "derja": "اليوم", "french": "Aujourd'hui", "audio": "lyoum.wav", "status": "to_verify"},
+  {"category": "Destinations", "folder": "baladya", "derja": "بلدية", "french": "Mairie", "audio": "baladya.wav", "status": "to_verify"},
+  {"category": "Destinations", "folder": "banka", "derja": "بنكة", "french": "Banque", "audio": "banka.wav", "status": "to_verify"},
+  {"category": "Destinations", "folder": "sbitar", "derja": "سبيطار", "french": "Hôpital", "audio": "sbitar.wav", "status": "to_verify"},
+  {"category": "Destinations", "folder": "dar", "derja": "دار", "french": "Maison", "audio": "dar.wav", "status": "to_verify"},
+  {"category": "Transport", "folder": "taxi", "derja": "تاكسي", "french": "Taxi", "audio": "taxi.wav", "status": "to_verify"},
+  {"category": "Transport", "folder": "louage", "derja": "لواج", "french": "Louage", "audio": "louage.wav", "status": "to_verify"},
+  {"category": "Jours", "folder": "jom3a", "derja": "الجمعة", "french": "Vendredi", "audio": "jom3a.wav", "status": "to_verify"},
+  {"category": "Famille", "folder": "om", "derja": "ماما", "french": "Maman", "audio": "om.wav", "status": "to_verify"}
+]
