@@ -22,7 +22,7 @@ It means no hand or a relaxed hand.
 
 1. Read the landmark data.
 2. Split it into train and test sets.
-3. Train a small scikit-learn model.
+3. Compare several small scikit-learn models.
 4. Check accuracy and a confusion matrix.
 5. Check the signs that are often mixed up.
 6. Add the `idle` class to the plan.
@@ -34,7 +34,20 @@ Later, if the model is too slow on the Pi, we will look at TFLite.
 
 Run these commands later:
 
-`python3 train.py`
+`python step3_train/compare_models.py`
+
+This compares Logistic Regression, RBF SVM, Extra Trees, Random Forest,
+KNN, and Histogram Gradient Boosting using accuracy, balanced accuracy, and
+macro-F1. It saves each final model in `models/`, writes
+`models/comparison_metrics.csv`, and copies the best careful-split model to
+`step3_train/model.joblib`.
+
+Test a saved model live with the webcam:
+
+`python step3_train/test_live.py --model rbf_svm.joblib`
+
+Use the same command with `extra_trees.joblib`, `random_forest.joblib`, or
+another filename in `models/` to compare live behavior. Press `q` to quit.
 
 ## What you should see
 
@@ -51,7 +64,7 @@ Write down signs that need more pictures.
 ## Checklist
 
 - [ ] Train and test sets prepared
-- [ ] Model trained
+- [ ] Models compared
 - [ ] Accuracy checked
 - [ ] Confusion matrix checked
 - [ ] `idle` class planned

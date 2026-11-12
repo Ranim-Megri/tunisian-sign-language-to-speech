@@ -1,6 +1,7 @@
 """live_test.py: show the model's guess live from the webcam. Press q to quit.
 Run:  python step3_train/live_test.py"""
 from pathlib import Path
+import argparse
 import urllib.request
 import cv2
 import joblib
@@ -8,6 +9,9 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from features import get_features
+"""python step3_train\test_live.py --model rbf_svm.joblib
+python step3_train\test_live.py --model extra_trees.joblib
+python step3_train\test_live.py --model random_forest.joblib"""
 
 MIN_CONFIDENCE = 0.6      # below this we show "?" instead of a guess
 
@@ -20,7 +24,22 @@ if not MODEL_PATH.exists():
     print("Downloading the MediaPipe hand model...")
     urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
 
-model = joblib.load(HERE / "model.joblib")
+parser = argparse.ArgumentParser(description="Test a trained sign model with the webcam.")
+parser.add_argument(
+    "--model",
+    default="model.joblib",
+    help="Model filename in models/ or a model path (default: model.joblib)",
+)
+args = parser.parse_args()
+model_path = Path(args.model)
+if not model_path.is_absolute():
+    model_path = (PROJECT / "models" / model_path) if model_path.parent == Path(".") else PROJECT / model_path
+if not model_path.exists() and args.model == "model.joblib":
+    model_path = HERE / "model.joblib"
+if not model_path.exists():
+    raise SystemExit(f"Model not found: {model_path}")
+model = joblib.load(model_path)
+print(f"Using model: {model_path}")
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     raise SystemExit("Cannot open the webcam.")

@@ -12,4 +12,5 @@
   {"category": "Transport", "folder": "louage", "derja": "لواج", "french": "Louage", "audio": "louage.wav", "status": "to_verify"},
   {"category": "Jours", "folder": "jom3a", "derja": "الجمعة", "french": "Vendredi", "audio": "jom3a.wav", "status": "to_verify"},
   {"category": "Famille", "folder": "om", "derja": "ماما", "french": "Maman", "audio": "om.wav", "status": "to_verify"}
+
 ]
