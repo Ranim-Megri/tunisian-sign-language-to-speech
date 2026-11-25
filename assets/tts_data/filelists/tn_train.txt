@@ -1,0 +1,17 @@
+assets/tts_data/wavs/tn_0005.wav|n7eb nemchi lel sbitar bel taxi
+assets/tts_data/wavs/tn_0010.wav|3andi tlatha sghar w wa7ed karhba
+assets/tts_data/wavs/tn_0014.wav|kallamni 3al telephone mta3ek
+assets/tts_data/wavs/tn_0016.wav|chouf el toubib 9bal ma temchi
+assets/tts_data/wavs/tn_0019.wav|lezem nbeddel el passeport fel baladya
+assets/tts_data/wavs/tn_0007.wav|lyoum nemchi lel banka
+assets/tts_data/wavs/tn_0013.wav|wa9tech yo5rej el louage el sfax ?
+assets/tts_data/wavs/tn_0018.wav|3andi rendez vous m3a el 3omda
+assets/tts_data/wavs/tn_0011.wav|a3tini 5obz w 7lib yar7am waldik
+assets/tts_data/wavs/tn_0002.wav|ena nemchi lel 3amal bekri
+assets/tts_data/wavs/tn_0012.wav|win el gar mta3 el tran ?
+assets/tts_data/wavs/tn_0003.wav|3aslema kifech nejem n3awnek ?
+assets/tts_data/wavs/tn_0017.wav|9adech soum el kilo toufa7 ?
+assets/tts_data/wavs/tn_0008.wav|nemchi lel baladya nhar el jom3a
+assets/tts_data/wavs/tn_0009.wav|mama fel sbitar
+assets/tts_data/wavs/tn_0001.wav|3aslema chnowa 7alek lyoum ?
+assets/tts_data/wavs/tn_0004.wav|labes el 7amdoullah

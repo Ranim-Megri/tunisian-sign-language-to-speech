@@ -1,0 +1,2 @@
+assets/tts_data/wavs/tn_0020.wav|ya 7ajja kifech el 7al tawwa ?
+assets/tts_data/wavs/tn_0006.wav|n7eb narja3 lel dar bel louage

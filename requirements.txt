@@ -10,4 +10,7 @@ gpiozero
 arabic-reshaper
 python-bidi
 matplotlib
+PyArabic
+pydub
+tqdm
 # picamera2 is installed on the Pi with "sudo apt install python3-picamera2", not with pip.
